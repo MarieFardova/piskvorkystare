@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+}
+
+h1 {
+  font-family: 'Lobster';
+}
