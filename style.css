@@ -8,59 +8,72 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
 }
 
-
-.kontejner{
+.kontejner {
   display: flex;
   flex-direction: column;
-  margin: 100px 200px;
-  color:#ffffff;
+  color: #ffffff;
   text-align: center;
-  border: 1px solid;
+  /*border: 1px solid;*/
+  max-width: 500px;
 }
 
-.foto{
+.foto {
   flex-grow: 1;
 }
 
-h1{
+.foto img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
   font-family: 'Lobster';
 }
 
-.main{
+.main {
   background-color: #283e50;
   text-align: center;
   font-size: 20px;
-  padding: 20px 100px;
+  padding: 20px 15px;
 }
 
-.odkazy{
-  list-style: none;
+.odkazy a {
+  display: block;
   font-size: 30px;
-}
-
-.odkazy a{
+  padding: 15px 20px;
   text-decoration: none;
 }
 
-.pravidla{
-background-color :#1fcca4;
-border: 1px solid;
-}
-  
- .pravidla a:hover{
-background-color: #1cbb96;
+a.pravidla {
+  border-bottom: 1px solid;
 }
 
-.start{
-background-color: #0197f6;
-border:1px solid;
+a.pravidla:link,
+a.pravidla:visited,
+a.pravidla:active {
+  background-color: #1fcca4;
+  color: #fff;
 }
 
-.start a:hover{
-background-color: #0090e9;
+a.pravidla:hover {
+  background-color: #1cbb96;
 }
 
+a.start:link,
+a.start:visited,
+a.start:active {
+  background-color: #0197f6;
+  color: #fff;
+}
+
+a.start:hover {
+  background-color: #0090e9;
+}
