@@ -81,3 +81,48 @@ a.start:active {
 a.start:hover {
   background-color: #0090e9;
 }
+
+
+
+.rules {
+  padding: 0 15%;
+  text-align: left;
+}
+
+.rules li {
+  margin-bottom: 10%;
+  padding-left: 10px;
+}
+
+.symbol {
+  width: 1em;
+  height: 1em;
+  filter: contrast(0%) brightness(100%);
+}
+
+figure {
+  padding: 15px 30px;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure figcaption {
+  font-style: italic;
+}
+
+a.uvod {
+  border-bottom: 1px solid;
+}
+
+a.uvod:link,
+a.uvod:visited,
+a.uvod:active {
+  background-color: #1fcca4;
+  color: #fff;
+}
+
+a.uvod:hover {
+  background-color: #1cbb96;
+}
