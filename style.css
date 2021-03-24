@@ -21,9 +21,10 @@ body {
   flex-direction: column;
   color: #ffffff;
   text-align: center;
-  /*border: 1px solid;*/
-  border-top-left-radius:3%;
-  border-top-right-radius:3%;
+  border-radius: 10px 10px 0 0;
+  /*nefunguje zaoblení pro stránku 2, nevím proč*/
+  margin: 50px;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.5);
   max-width: 500px;
 }
 
@@ -34,8 +35,7 @@ body {
 .foto img {
   width: 100%;
   display: block;
-  border-top-left-radius: 3%;
-  border-top-right-radius: 3%;
+  border-radius: 10px 10px 0 0;
 }
 
 h1 {
@@ -57,7 +57,7 @@ h1 {
 }
 
 a.pravidla {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #283e50;
 }
 
 a.pravidla:link,
@@ -83,29 +83,45 @@ a.start:hover {
 }
 
 
+/*druhá stránka - Pravidla*/
+
+.kontejner {
+   border-radius: 10px 10px 0 0;
+ }   /*nefunguje, nevím zatím proč*/
 
 .rules {
-  padding: 0 15%;
+  padding: 1px 30px;
   text-align: left;
 }
 
 .rules li {
-  margin-bottom: 10%;
-  padding-left: 10px;
+  margin-bottom: 5%;
+  padding: 10px;
 }
 
-.symbol {
+.circle,
+.cross {
   width: 1em;
   height: 1em;
-  filter: contrast(0%) brightness(100%);
+  filter: invert(100%);
 }
+
+ .ukazky {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+ }
+ 
 
 figure {
   padding: 15px 30px;
+  width: 200px
 }
 
 figure img {
-  width: 100%;
+  width: 200px;
 }
 
 figure figcaption {
@@ -113,7 +129,7 @@ figure figcaption {
 }
 
 a.uvod {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #283e50;
 }
 
 a.uvod:link,
