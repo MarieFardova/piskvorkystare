@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+  background-repeat: no-repeat;
 }
 
 .kontejner {
@@ -85,10 +86,6 @@ a.start:hover {
 
 /*druhá stránka - Pravidla*/
 
-.kontejner {
-   border-radius: 10px 10px 0 0;
- }   /*nefunguje, nevím zatím proč*/
-
 .rules {
   padding: 1px 30px;
   text-align: left;
@@ -117,15 +114,17 @@ a.start:hover {
 
 figure {
   padding: 15px 30px;
-  width: 200px
+  margin:auto;
+  /*flex-basis: 50%; - když zapnuto tak jsou velde sebe*/
 }
 
 figure img {
-  width: 200px;
+  width: 100%;
 }
 
-figure figcaption {
+figcaption {
   font-style: italic;
+  text-align: center;
 }
 
 a.uvod {
@@ -142,3 +141,37 @@ a.uvod:active {
 a.uvod:hover {
   background-color: #1cbb96;
 }
+
+
+/* úprava pro TABLET
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  .rules {
+    min-width: 100%;
+  }
+  figure {
+    max-width: 50%;
+    min-width: 300px;
+  }
+}
+
+--------------------------------------------  */
+
+/* úprava pro PC
+
+
+@media only screen and (min-width: 800px) {
+  .rules {
+    min-width: 700px;
+  }
+
+  .rules img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  figure {
+    max-width: 50%;
+  }
+}
+*/
