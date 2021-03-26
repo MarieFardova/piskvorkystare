@@ -115,7 +115,7 @@ a.start:hover {
 figure {
   padding: 15px 30px;
   margin:auto;
-  /*flex-basis: 50%; - když zapnuto tak jsou velde sebe*/
+  flex-basis: 50%; 
 }
 
 figure img {
@@ -143,23 +143,7 @@ a.uvod:hover {
 }
 
 
-/* úprava pro TABLET
-
-@media only screen and (min-width: 400px) and (max-width: 800px) {
-  .rules {
-    min-width: 100%;
-  }
-  figure {
-    max-width: 50%;
-    min-width: 300px;
-  }
-}
-
---------------------------------------------  */
-
-/* úprava pro PC
-
-
+/* responze pro větší obrazovky*/
 @media only screen and (min-width: 800px) {
   .rules {
     min-width: 700px;
@@ -174,4 +158,3 @@ a.uvod:hover {
     max-width: 50%;
   }
 }
-*/
