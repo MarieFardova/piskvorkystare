@@ -89,6 +89,8 @@ a.start:hover {
 
 .obal{
   background-color: #283e50;
+  padding: 20px 20px;
+  margin: 20px 20px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -116,7 +118,7 @@ a.start:hover {
 }
 
 figure {
-  /*padding: 15px 20px;*/
+ /* padding: 15px 20px;*/
   margin: 0;
   grid-column: 1 / span 2;
 }
@@ -146,7 +148,7 @@ a.uvod:hover {
   background-color: #1cbb96;
 }
 
-/* responze pro větší obrazovky*/
+/* responze */
 
 @media only screen and (min-width: 600px) {
   .kontejner {
@@ -156,3 +158,85 @@ a.uvod:hover {
     grid-column: span 1;
   }
 }
+
+/*  třetí stránka - HRA  */
+
+
+.hra {
+ max-width: 80vmin;
+  color: #ffffff;
+  margin: 2rem auto;
+}
+
+.navigace{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.navigace-leva {
+  display: inlineblock;
+  padding: 0;
+}
+
+.circle{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.navigace-prava{
+  padding: 0.4rem;
+  border-radius: 3px;
+}
+
+.ikona-home{
+  background-color: #1fcca4;
+}
+
+.ikona-home:hover,
+.ikona-home:focus{
+  background-color: #1cbb96;
+}
+
+
+.ikona-restart{
+  background-color: #0197f6;
+  margin-left: 0.3rem;
+}
+
+.ikona-restart:hover,
+.ikona-restart:focus{
+  background-color: #0090e9;
+}
+
+
+.mrizka{
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vmin;
+  margin-top: 1rem;
+  background: rgb(229, 182, 210);
+  background: linear-gradient(
+    10deg,
+    rgba(229, 182, 210, 1) 0%,
+    rgba(178, 148, 196, 1) 100%
+  );
+}
+
+.policko{
+  width:10%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid black;
+}
+
+.policko:hover,
+.policko:focus{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*uvidíme co vyplodim dál*/
