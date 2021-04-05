@@ -192,8 +192,8 @@ a.uvod:hover {
 
 .circle{
   display: block;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   filter: invert(100%);
   margin-left: 10px;
 }
@@ -259,3 +259,4 @@ a.uvod:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+/*ještě malinko poupravit - úplně dobře nefunguje flex pod 300px*/
