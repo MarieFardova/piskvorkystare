@@ -190,7 +190,7 @@ a.uvod:hover {
   margin: 0%;
 }
 
-.circle{
+.navigace-leva .circle{
   display: block;
   width: 1.5rem;
   height: 1.5rem;
@@ -259,4 +259,4 @@ a.uvod:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-/*ještě malinko poupravit - úplně dobře nefunguje flex pod 300px*/
+/*úplně dobře nefunguje responzivita pod 300px */
