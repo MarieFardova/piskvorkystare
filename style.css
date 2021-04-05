@@ -251,7 +251,7 @@ a.uvod:hover {
 .policko{
   width:10%;
   background-color: rgba(255, 255, 255, 0.4);
-  border: 1px solid black;
+  border: 1px solid rgb(38, 28, 78);
 }
 
 .policko:hover,
