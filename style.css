@@ -190,7 +190,7 @@ a.uvod:hover {
   margin: 0%;
 }
 
-.navigace-leva .circle{
+.hrac {
   display: block;
   width: 1.5rem;
   height: 1.5rem;
@@ -247,6 +247,7 @@ a.uvod:hover {
     rgba(178, 148, 196, 1) 100%
   );
 }
+   /*opacity: 0.5;*/
 
 .policko{
   width:10%;
@@ -258,5 +259,27 @@ a.uvod:hover {
 .policko:focus{
   background-color: rgba(255, 255, 255, 0.7);
 }
+/*
+.policko::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}*/
 
-/*úplně dobře nefunguje responzivita pod 300px */
+
+
+/* úkol 4*/
+
+.board__field--circle {
+  background-image: url('obrazky2/circle.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.board__field--cross {
+  background-image: url('obrazky2/cross.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
